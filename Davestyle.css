@@ -1,0 +1,173 @@
+body{
+    padding-top:60px;
+    font-family: 'Cardo', serif;
+   
+        
+    }
+
+    /* hr{
+        width:900px;
+        
+    } */
+
+
+.navbar-inverse .navbar-brand {
+    color:#fff;
+    font-size:24px
+}
+
+
+.navbar-inverse {
+    background-color: #009688 !important;;
+    border:none;
+    height:50px;
+
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color:#fff;
+    font-size:18px;
+    padding-left:15px;
+    text-transform: uppercase;
+    
+}
+
+.resume {
+    font-size:18px;
+    background:#fff;
+    color:#009688;
+    margin-top:7px;
+    border-radius: 5px;
+    border:2px solid #26A69A;
+}
+
+.resume:hover {
+    background:#26A69A;
+    color:#fff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    cursor: pointer;
+    background: #26A69A
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar-inverse .navbar-collapse {
+        border-color: white;
+        background-color: #009688;
+     } 
+
+    
+     .about-me img {
+         margin-top:15px;
+        
+     }
+
+     .about-me h2 {
+        margin-top:0px;
+       
+    }
+
+     
+ }
+
+
+.jumbotron {
+    color:#FFF;
+    background:url("main-pic2.jpg");
+    background-size:cover;
+    background-position:top;
+}
+
+.jumbotron span {
+    background:#26A69A;
+    font-size:20px;
+    padding:2px;
+}
+.about-me {
+    margin-top:35px;
+    padding-bottom:10px;
+    border-bottom:1px solid #26A69A;
+}
+
+.about-me h2 {
+    margin-top:20px;
+   
+}
+
+.about-me p {
+    font-size:16px;
+    line-height: 1.5;
+    text-align: justify;
+    font-weight: 400;
+
+}
+ .services {
+     margin-top:20px;
+     text-align: center;
+     
+ }
+
+.services h4{
+    margin-bottom:30px;
+}
+
+
+
+.services p {
+    font-size: 16px;
+}
+
+ .fa {
+    color:#26A69A;
+}
+
+.portfolio {
+    margin-top:25px;
+    
+    
+}
+
+.portfolio-title{
+    text-align: center;
+}
+
+.tech-info {
+    margin-top:30px;
+}
+
+
+
+
+.footer {
+    margin-top:20px;
+    text-align: center;
+    padding: 20px;
+    padding-bottom:15px;
+    color: #fff;
+    background-color: #009688;
+}
+
+.btn .btn-default a:hover{
+    text-decoration: none;
+}
+
+.footer a {
+    text-decoration: none;
+    color:#000;
+    font-size:18px;
+}
+
+.footer a:hover:first-child{  
+    border-bottom:3px solid #fff;
+}
+
+.footer .social {
+    
+    color:#fff;
+    padding-left:30px;
+  
+}
+
+
